@@ -1,0 +1,21 @@
+.about__text {
+  margin: 0 0 10px 0;
+  font-size: 15px;
+}
+
+.about__text:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .about__text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about__text {
+    max-width: 100px;
+    margin: 0 0 5px 0;
+  }
+}

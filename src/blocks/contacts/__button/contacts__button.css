@@ -1,0 +1,25 @@
+.contacts__button {
+  background-color: black;
+  color: white;
+  border-radius: 3em;
+  padding: 13px;
+  font-size: 18px;
+  line-height: 1.25;
+  font-weight: 700;
+  transition: 0.1s linear;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+.contacts__button:hover {
+  background-color: white;
+  border: 2px solid orange;
+  color: orange;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .contacts__button {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,8 @@
+.about__language-selector {
+  transform: rotate(180deg);
+  display: flex;
+  justify-self: flex-end;
+  align-self: flex-end;
+  column-gap: 21px;
+  writing-mode: vertical-rl;
+}

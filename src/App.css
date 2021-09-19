@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@import url(./blocks/container/container.css);
+@import url(./blocks/link/link.css);
+@import url(./blocks/up-button/up-button.css);
+@import url(./blocks/up-button/_active/up-button_active.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__links/header__links.css);
+@import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/section/section.css);
+@import url(./blocks/section/__title/section__title.css);
+@import url(./blocks/about/about.css);
+@import url(./blocks/about/__container/about__container.css);
+@import url(./blocks/about/__title/about__title.css);
+@import url(./blocks/about/__self-description/about__self-description.css);
+@import url(./blocks/about/__language-selector/about__language-selector.css);
+@import url(./blocks/about/__text/about__text.css);
+@import url(./blocks/about/__language/about__language.css);
+@import url(./blocks/about/__language/_active/about__language_active.css);
+@import url(./blocks/about/__image-container/about__image-container.css);
+@import url(./blocks/about/__image/about__image.css);
+@import url(./blocks/about-me/about-me.css);
+@import url(./blocks/about-me/__text-container/about-me__text-container.css);
+@import url(./blocks/about-me/__text/about-me__text.css);
+@import url(./blocks/skills/skills.css);
+@import url(./blocks/skills/__container/skills__container.css);
+@import url(./blocks/skills/__figure/skills__figure.css);
+@import url(./blocks/skills/__icon/skills__icon.css);
+@import url(./blocks/skills/__caption/skills__caption.css);
+@import url(./blocks/portfolio/portfolio.css);
+@import url(./blocks/portfolio/__container/portfolio__container.css);
+@import url(./blocks/portfolio/__figure/portfolio__figure.css);
+@import url(./blocks/portfolio/__image/portfolio__image.css);
+@import url(./blocks/portfolio/__caption/portfolio__link.css);
+@import url(./blocks/contacts/contacts.css);
+@import url(./blocks/contacts/__text/contacts__text.css);
+@import url(./blocks/contacts/__form/contacts__form.css);
+@import url(./blocks/contacts/__button/contacts__button.css);
+@import url(./blocks/contacts/__icons-container/contacts__icons-container.css);
+@import url(./blocks/contacts/__icon-container/contacts__icon-container.css);
+@import url(./blocks/contacts/__icon/contacts__icon.css);
+@import url(./blocks/contacts/__caption/contacts__caption.css);

@@ -1,0 +1,10 @@
+.contacts__caption {
+  font-size: 15px;
+  line-height: 1.15;
+}
+
+@media screen and (max-width: 450px) {
+  .contacts__caption {
+    font-size: 13px;
+  }
+}

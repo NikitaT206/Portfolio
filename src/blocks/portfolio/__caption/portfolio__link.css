@@ -1,0 +1,19 @@
+.portfolio__link {
+  font-size: 25px;
+  line-height: 1.15;
+}
+
+.portfolio__link::after {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  content: "";
+  height: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio__link {
+    font-size: 20px;
+  }
+}

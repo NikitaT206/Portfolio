@@ -1,0 +1,17 @@
+.skills__caption {
+  font-size: 22px;
+  max-width: max-content;
+  justify-self: center;
+}
+
+@media screen and (max-width: 600px) {
+  .skills__caption {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skills__caption {
+    font-size: 14px;
+  }
+}
