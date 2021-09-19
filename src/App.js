@@ -6,6 +6,7 @@ import Skills from './components/Skills/Skills';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contacts from './components/Contacts/Contacts';
 import UpButton from './components/UpButton/UpButton';
+import UpButton from './components/UpButton/UpButton';
 
 function App() {
   return (
