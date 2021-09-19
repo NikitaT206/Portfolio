@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/NikitaT206/portfolio.git/static/css/main.60fb7f79.chunk.css",
+    "main.js": "/NikitaT206/portfolio.git/static/js/main.77b82f0a.chunk.js",
+    "main.js.map": "/NikitaT206/portfolio.git/static/js/main.77b82f0a.chunk.js.map",
+    "runtime-main.js": "/NikitaT206/portfolio.git/static/js/runtime-main.f970dde1.js",
+    "runtime-main.js.map": "/NikitaT206/portfolio.git/static/js/runtime-main.f970dde1.js.map",
+    "static/js/2.8f48c655.chunk.js": "/NikitaT206/portfolio.git/static/js/2.8f48c655.chunk.js",
+    "static/js/2.8f48c655.chunk.js.map": "/NikitaT206/portfolio.git/static/js/2.8f48c655.chunk.js.map",
+    "static/js/3.1cb5615e.chunk.js": "/NikitaT206/portfolio.git/static/js/3.1cb5615e.chunk.js",
+    "static/js/3.1cb5615e.chunk.js.map": "/NikitaT206/portfolio.git/static/js/3.1cb5615e.chunk.js.map",
+    "index.html": "/NikitaT206/portfolio.git/index.html",
+    "static/css/main.60fb7f79.chunk.css.map": "/NikitaT206/portfolio.git/static/css/main.60fb7f79.chunk.css.map",
+    "static/js/2.8f48c655.chunk.js.LICENSE.txt": "/NikitaT206/portfolio.git/static/js/2.8f48c655.chunk.js.LICENSE.txt",
+    "static/media/1.27d0b571.png": "/NikitaT206/portfolio.git/static/media/1.27d0b571.png",
+    "static/media/2.6e058924.png": "/NikitaT206/portfolio.git/static/media/2.6e058924.png",
+    "static/media/3.81d9edd0.png": "/NikitaT206/portfolio.git/static/media/3.81d9edd0.png",
+    "static/media/git.e8c48bc7.svg": "/NikitaT206/portfolio.git/static/media/git.e8c48bc7.svg",
+    "static/media/html5.3a09d060.svg": "/NikitaT206/portfolio.git/static/media/html5.3a09d060.svg",
+    "static/media/inst.02967a62.svg": "/NikitaT206/portfolio.git/static/media/inst.02967a62.svg",
+    "static/media/js.90384b2d.svg": "/NikitaT206/portfolio.git/static/media/js.90384b2d.svg",
+    "static/media/linked.7defd339.svg": "/NikitaT206/portfolio.git/static/media/linked.7defd339.svg",
+    "static/media/main.9a47531d.jpg": "/NikitaT206/portfolio.git/static/media/main.9a47531d.jpg",
+    "static/media/react.34d3d323.png": "/NikitaT206/portfolio.git/static/media/react.34d3d323.png",
+    "static/media/vk.b5497981.svg": "/NikitaT206/portfolio.git/static/media/vk.b5497981.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f970dde1.js",
+    "static/js/2.8f48c655.chunk.js",
+    "static/css/main.60fb7f79.chunk.css",
+    "static/js/main.77b82f0a.chunk.js"
+  ]
+}
