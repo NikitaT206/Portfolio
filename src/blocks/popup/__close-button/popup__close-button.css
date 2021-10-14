@@ -1,0 +1,12 @@
+.popup__close-button {
+  border: none;
+  background-image: url(../../../images/icons/cros.svg);
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  padding: 0;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}

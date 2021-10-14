@@ -1,33 +1,27 @@
 import React from 'react'
 import AboutImage from './AboutImage'
+import LangSelect from '../LangSelect'
+import { useContext } from 'react'
+import { TranslationContext } from '../../context/TranslationContext'
 
-const user = {
-  name: 'Nikita',
-  lastName: 'Tunik',
-  old: (new Date().getFullYear() - 1992),
-  city: 'Saint-Petersburg',
-  job: 'Web-Developer Student',
-}
 
-class About extends React.Component {
-  render() {
-    return <section className='about container section'>
-      <a name='home'></a>
+function About(props) {
+  const translations = React.useContext(TranslationContext)
+
+  return (
+    <section className='about container section' id='about'>
       <div className='about__container'>
-        <h1 className='about__title'>{user.name}<br></br>{user.lastName}</h1>
+        <h1 className='about__title'>{translations.about.user.name}<br></br>{translations.about.user.lastName}</h1>
         <div className='about__self-description'>
-        <p className='about__text'>{user.job}</p>
-        <p className='about__text'>{user.old} years old, {user.city}</p>
-        </div>
-        <nav className='about__language-selector'>
-          <a className='about__language'>Ru</a>
-          <a className='about__language about__language_active'>Eng</a>
-        </nav>
+        <p className='about__text'>{translations.about.user.job}</p>
+        <p className='about__text'>{translations.about.user.old} {translations.about.user.city}</p>
       </div>
-      <AboutImage user={user}/>
+      <LangSelect onLangSelect={props.onLangSelect}/>
+      </div>
+      <AboutImage user={translations.about.user.name}/>
     </section>
-    
-  }
+  )
 }
+
 
 export default About

@@ -1,0 +1,7 @@
+.link_active {
+  color: orange;
+}
+
+.link_active::after {
+  background-color: orange;
+}

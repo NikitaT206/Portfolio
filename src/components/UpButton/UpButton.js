@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 class UpButton extends React.Component {
   constructor(props) {
@@ -8,17 +9,21 @@ class UpButton extends React.Component {
   }
  
   render() {
-    return <a href='home' className={this.state.date}>↑</a>
+    return <Link 
+      to='header' 
+      className={this.state.date}
+      smooth={true}
+      duration={500}
+      >↑</Link>
   }
 
   handleScroll() {
-      if (window.pageYOffset >= 100) {
-        this.setState({date: 'up-button_active'})
-      }
-
-      else if (window.pageYOffset <= 100) {
-        this.setState({date: 'up-button'})
-      } 
+    if (window.pageYOffset >= 100) {
+      this.setState({date: 'up-button up-button_active'})
+    }
+    else if (window.pageYOffset <= 100) {
+      this.setState({date: 'up-button'})
+    } 
   }
 
   componentDidMount() {

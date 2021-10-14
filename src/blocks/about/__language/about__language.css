@@ -4,6 +4,7 @@
   position: relative;
   cursor: pointer;
   transition: 0.15s linear;
+  box-sizing: border-box;
 }
 
 .about__language:first-of-type::after {

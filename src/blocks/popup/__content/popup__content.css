@@ -1,0 +1,6 @@
+.popup__content {
+  text-align: center;
+  height: max-content;
+  overflow: scroll;
+  max-height: 50vh;
+}

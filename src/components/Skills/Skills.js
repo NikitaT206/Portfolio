@@ -4,6 +4,7 @@ import cssIcon from '../../images/icons/css.png'
 import javaScriptIcon from '../../images/icons/js.svg'
 import reactIcon from '../../images/icons/react.png'
 import SkillsContainer from './SkillsContainer'
+import { TranslationContext } from '../../context/TranslationContext'
 
 const skills = [
   {name: 'HTML5', icon: htmlIcon, level: 5, id: 1},
@@ -12,14 +13,19 @@ const skills = [
   {name: 'React', icon: reactIcon, level: 2, id: 4},
 ]
 
-class Skills extends React.Component {
-  render() {
-    return  <section className='skills container section'>
-              <a name='skills'></a>
-              <h2 className='section__title'>Skills</h2>
-              <SkillsContainer skills={skills}/>
-            </section>
-  }
+function Skills() {
+
+  const translations = React.useContext(TranslationContext)
+
+
+  return (
+    <section className='skills container section' id='skills'>
+      <h2 className='section__title'>{translations.skills.title}</h2>
+      <SkillsContainer skills={skills}/>
+    </section>
+  )
+    
 }
+
 
 export default Skills
