@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.60d9caa3.chunk.css",
-    "main.js": "/portfolio/static/js/main.0dbc830c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0dbc830c.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.ef77fcd2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ef77fcd2.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a564d510.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a564d510.js.map",
     "static/js/2.494e79d5.chunk.js": "/portfolio/static/js/2.494e79d5.chunk.js",
@@ -21,7 +21,7 @@
     "static/media/inst.02967a62.svg": "/portfolio/static/media/inst.02967a62.svg",
     "static/media/js.90384b2d.svg": "/portfolio/static/media/js.90384b2d.svg",
     "static/media/linked.7defd339.svg": "/portfolio/static/media/linked.7defd339.svg",
-    "static/media/main.9a47531d.jpg": "/portfolio/static/media/main.9a47531d.jpg",
+    "static/media/me.48a89b8e.jpeg": "/portfolio/static/media/me.48a89b8e.jpeg",
     "static/media/mestoReact1.8f14cb21.png": "/portfolio/static/media/mestoReact1.8f14cb21.png",
     "static/media/react.34d3d323.png": "/portfolio/static/media/react.34d3d323.png",
     "static/media/toDo1.a4e158de.png": "/portfolio/static/media/toDo1.a4e158de.png",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.a564d510.js",
     "static/js/2.494e79d5.chunk.js",
     "static/css/main.60d9caa3.chunk.css",
-    "static/js/main.0dbc830c.chunk.js"
+    "static/js/main.ef77fcd2.chunk.js"
   ]
 }
