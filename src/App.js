@@ -9,15 +9,17 @@ import { useState } from 'react';
 import React from 'react';
 import UpButton from './components/UpButton/UpButton';
 import Popup from './components/Popup/Popup';
-import { Route } from 'react-router'
-import { Switch } from 'react-router';
+// import { Route } from 'react-router'
+// import { Switch } from 'react-router';
 import { TranslationContext } from './context/TranslationContext';
 import { translations } from './context/TranslationContext';
+// import PopupMessage from './components/PopupMessage/PopupMessage';
 
 
 function App() {
 
   const [popupOpen, setPopupOpen] = useState({name: '', image: '', description: '', link: ''})
+  // const [popupMessage, setPopupMessage] = useState(false)
 
   function openPopup(item) {
     setPopupOpen(item)
@@ -25,21 +27,28 @@ function App() {
 
   function closePopup() {
     setPopupOpen({name: '', image: '', description: '', link: ''})
+    // setPopupMessage(false)
   }
 
-  const [lang, setLang] = useState('en')
+  function handlePopupMessageClick(event) {
+    event.preventDefault()
+    // setPopupMessage(true)
+  }
+
+  const [lang, setLang] = useState('ru')
   
   return (
     <>
       <TranslationContext.Provider value={translations[lang]}>
         <UpButton/>
+        {/* <PopupMessage isOpen={popupMessage} onCloseButton={closePopup}/> */}
         <Popup onCloseButton={closePopup} item={popupOpen}/>
         <Header/>
         <About onLangSelect={setLang}/>
         <AboutMe/>
         <Skills/>
         <Portfolio onImageClick={openPopup}/>
-        <Contacts/>
+        <Contacts onButtonClick={handlePopupMessageClick}/>
       </TranslationContext.Provider>
       {/* <Switch>
         <Route path='/about'>

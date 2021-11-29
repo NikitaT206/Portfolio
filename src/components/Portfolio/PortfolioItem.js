@@ -17,12 +17,13 @@ function PortfolioItem(props) {
           target='_blank'>{props.item.name}
         </a>
       </figcaption>
-      <img
-        onClick={handleClick}
-        className='portfolio__image' 
-        src={props.item.image} 
-        alt={props.item.name}
-      ></img> 
+      <div className='portfolio__image-container' onClick={handleClick}>
+        <img
+          className='portfolio__image' 
+          src={props.item.image} 
+          alt={props.item.name}
+        ></img>
+      </div>
     </figure>
     
   )

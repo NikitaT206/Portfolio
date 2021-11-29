@@ -2,7 +2,7 @@ import { useState } from "react"
 
 function LangSelect({onLangSelect}) {
 
-  const [lang, setLang] = useState({id: 'en'})
+  const [lang, setLang] = useState({id: 'ru'})
 
   function handleChange(event) {
     setLang(event.target)
@@ -11,8 +11,8 @@ function LangSelect({onLangSelect}) {
 
   return (
     <div className='about__language-selector'>
-      <a id='ru' className={lang.id === 'ru' ? 'about__language about__language_active' : 'about__language'} onClick={handleChange}>Ru</a>
-      <a id='en' className={lang.id === 'en' ? 'about__language about__language_active' : 'about__language'} onClick={handleChange}>Eng</a>
+      <p id='ru' className={lang.id === 'ru' ? 'about__language about__language_active' : 'about__language'} onClick={handleChange}>Ru</p>
+      <p id='en' className={lang.id === 'en' ? 'about__language about__language_active' : 'about__language'} onClick={handleChange}>Eng</p>
     </div>
   )
 }

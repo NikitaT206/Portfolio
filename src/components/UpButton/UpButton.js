@@ -14,7 +14,7 @@ class UpButton extends React.Component {
       className={this.state.date}
       smooth={true}
       duration={500}
-      >↑</Link>
+      ></Link>
   }
 
   handleScroll() {

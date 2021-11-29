@@ -1,15 +1,7 @@
 import React from 'react'
-import russianTravelImage from '../../images/portfolio/1.png'
-import mestoImage from '../../images/portfolio/2.png'
-import portfolioImage from '../../images/portfolio/3.png'
 import PortfolioItem from './PortfolioItem'
 import { TranslationContext } from '../../context/TranslationContext'
-
-const portfolioItems = [
-  {name: 'Russian Travel', link: 'https://nikitat206.github.io/russian-travel/', image: russianTravelImage, description: 'ewfewf', id: 1},
-  {name: 'Mesto', link: 'https://nikitat206.github.io/mesto/', image: mestoImage, description: 'ewf235235325ewf', id: 2},
-  {name: 'Portfolio', link: 'https://nikitat206.github.io/portfolio/', image: portfolioImage, description: 'ewgwwqqqqqq', id: 3},
-]
+import { portfolioItems } from '../../constants/portfolioItems'
 
 function Portfolio(props) {
 

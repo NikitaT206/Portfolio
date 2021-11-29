@@ -1,6 +1,19 @@
 .portfolio__container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 0 auto;
   flex-direction: column;
-  row-gap: 70px;
+  gap: 70px;
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio__container {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+  }
 }

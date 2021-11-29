@@ -1,7 +1,6 @@
 import React from 'react'
 import AboutImage from './AboutImage'
 import LangSelect from '../LangSelect'
-import { useContext } from 'react'
 import { TranslationContext } from '../../context/TranslationContext'
 
 

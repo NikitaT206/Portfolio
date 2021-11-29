@@ -1,6 +1,6 @@
 .popup__close-button {
   border: none;
-  background-image: url(../../../images/icons/cros.svg);
+  background-image: url(../../../images/icons/cross1.svg);
   background-color: transparent;
   width: 40px;
   height: 40px;
@@ -9,4 +9,6 @@
   position: absolute;
   top: -40px;
   right: -40px;
+  stroke: white;
+  cursor: pointer;
 }

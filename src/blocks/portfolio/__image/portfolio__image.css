@@ -1,11 +1,4 @@
 .portfolio__image {
   width: 100%;
   display: block;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.2s ease-in-out;
-}
-
-.portfolio__image:hover {
-  opacity: 0.9;
 }
